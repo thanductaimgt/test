@@ -1,0 +1,3 @@
+include ':app'
+include('verticaltablayout')
+rootProject.name = "test"

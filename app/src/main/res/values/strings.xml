@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="test_font2">aăâbcdđeêfghijklmnoôơpqrstuưvwxyz\nAĂÂBCDĐEÊFGHIJKLMNOÔƠPQRSTUƯVWXYZ0123456789</string>
+    <string name="test_font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam fuga illo sequi vero. A, eius harum hic minima quia quibusdam ratione rerum suscipit voluptates voluptatibus. Adipisci alias, aliquam atque commodi cum deserunt dolor doloribus error eveniet facilis impedit ipsum molestias neque perferendis quis sequi sint vero. Expedita omnis reprehenderit temporibus!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><!--just placeholders for actual fonts, for preview-->
+<resources>
+    <string name="dlsLight">sans-serif-thin</string>
+    <string name="dlsRegular">sans-serif-light</string>
+    <string name="dlsMedium">sans-serif</string>
+    <string name="dlsSemiBold">sans-serif-medium</string>
+    <string name="dlsBold">sans-serif-black</string>
+</resources>
