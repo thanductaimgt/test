@@ -3,14 +3,17 @@ package com.example.test.fullscreen
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
+import android.view.View
+import android.view.ViewGroup
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintLayout.LayoutParams.PARENT_ID
 import androidx.core.view.*
 import com.example.test.R
+import com.example.test.updateMargin
 import kotlinx.android.synthetic.main.activity_full_screen.*
-import vn.tiki.android.dls.extension.updateMargin
+//import vn.tiki.android.dls.extension.updateMargin
 
 class FullScreenActivity : AppCompatActivity() {
     private var isHide = false
@@ -156,6 +159,11 @@ class FullScreenActivity : AppCompatActivity() {
 //                return insets
 //            }
 //        })
+
+        var a=0
+        arrayListOf<Int>().map {
+            a=1
+        }
     }
 
     private fun hideSystemUI() {

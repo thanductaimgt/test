@@ -15,9 +15,10 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.test.R
+import com.example.test.dp
 import com.example.test.recyclerview_animate.epoxy.*
 import kotlinx.android.synthetic.main.activity_rv_animate.*
-import vn.tiki.android.dls.extension.dp
+//import vn.tiki.android.dls.extension.dp
 
 
 class RvAnimateActivity : AppCompatActivity() {
@@ -45,12 +46,12 @@ class RvAnimateActivity : AppCompatActivity() {
             repeatCount = ValueAnimator.INFINITE
             interpolator = this@RvAnimateActivity.interpolator
             doOnRepeat {
-                recyclerView.smoothScrollBy(
-                    0,
-                    40.dp,
-                    this@RvAnimateActivity.interpolator,
-                    SCROLL_DURATION.toInt()
-                )
+//                recyclerView.smoothScrollBy(
+//                    0,
+//                    40.dp,
+//                    this@RvAnimateActivity.interpolator,
+//                    SCROLL_DURATION.toInt()
+//                )
                 Log.d("RvActivity", "scroll")
             }
         }

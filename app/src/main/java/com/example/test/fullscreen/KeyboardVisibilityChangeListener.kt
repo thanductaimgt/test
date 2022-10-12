@@ -3,7 +3,8 @@ package com.example.test.fullscreen
 import android.graphics.Rect
 import android.view.View
 import android.view.ViewTreeObserver
-import vn.tiki.android.dls.extension.dp
+import com.example.test.dp
+//import vn.tiki.android.dls.extension.dp
 import java.lang.ref.WeakReference
 import java.util.*
 
